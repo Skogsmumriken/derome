@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637762220444839581
+      ticks: 637762301999976301
     m_Hash: 210915730
   m_LockFileStatus:
     m_FilePath: C:/GitHub/derome/MRKT Tutorials (1)/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637762220444855474
+      ticks: 637762301999976301
     m_Hash: 3450862928
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -26,7 +26,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.0
       source: 6
-      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.openxr@1d256e02da88-1640625244345
+      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.openxr@1d256e02da88-1640633399915
       assetPath: Packages/com.microsoft.mixedreality.openxr
       name: com.microsoft.mixedreality.openxr
       displayName: Mixed Reality OpenXR Plugin
@@ -109,7 +109,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.7.0
       source: 6
-      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640625244424
+      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640633399966
       assetPath: Packages/com.microsoft.mixedreality.toolkit.foundation
       name: com.microsoft.mixedreality.toolkit.foundation
       displayName: Mixed Reality Toolkit Foundation
@@ -176,7 +176,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.7.0
       source: 6
-      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@960d11432cae-1640625244480
+      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@960d11432cae-1640633399998
       assetPath: Packages/com.microsoft.mixedreality.toolkit.standardassets
       name: com.microsoft.mixedreality.toolkit.standardassets
       displayName: Mixed Reality Toolkit Standard Assets
@@ -4138,7 +4138,7 @@ m_PackageAssets:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637762220443450615
+        ticks: 637762301999152382
       m_Hash: 1448350967
     - m_FilePath: C:\GitHub\derome\MRKT Tutorials (1)\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.0.tgz/package.json
       m_PathExists: 0
@@ -4152,7 +4152,7 @@ m_PackageAssets:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637762220444242850
+        ticks: 637762301999663840
       m_Hash: 373903874
     - m_FilePath: C:\GitHub\derome\MRKT Tutorials (1)\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.0.tgz/package.json
       m_PathExists: 0
@@ -4166,7 +4166,7 @@ m_PackageAssets:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637762220444799664
+        ticks: 637762301999976301
       m_Hash: 2146721844
 m_ProjectPath: C:/GitHub/derome/MRKT Tutorials (1)/Packages
 m_EditorVersion: 2020.3.18f1 (a7d1c678663c)
