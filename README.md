@@ -1,3 +1,3 @@
 # derome
 Derome project
-\nThis is supposed to be read. :)
+This is supposed to be read. :)
