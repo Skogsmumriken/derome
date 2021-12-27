@@ -305,6 +305,10 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
+        - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
         - 1.13.5
         - 1.14.1
         - 1.14.4
@@ -322,7 +326,7 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.13.5
+        verified: 1.9.0
       dependencies:
       - name: com.unity.nuget.newtonsoft-json
         version: 2.0.0
@@ -4165,4 +4169,4 @@ m_PackageAssets:
         ticks: 637762220444799664
       m_Hash: 2146721844
 m_ProjectPath: C:/GitHub/derome/MRKT Tutorials (1)/Packages
-m_EditorVersion: 2020.3.22f1 (e1a7f79fd887)
+m_EditorVersion: 2020.3.18f1 (a7d1c678663c)
