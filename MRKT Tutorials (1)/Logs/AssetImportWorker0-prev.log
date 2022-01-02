@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19043.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 32682 MB
+OS: 'Windows 10 Pro; OS build 19044.1415; Version 2009; 64bit' Language: 'en' Physical Memory: 16334 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,123 +11,294 @@ C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/GitHub/derome/MRKT Tutorials (1)
+C:/derome/MRKT Tutorials (1)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63029
-Successfully changed project path to: C:/GitHub/derome/MRKT Tutorials (1)
-C:/GitHub/derome/MRKT Tutorials (1)
+62165
+Successfully changed project path to: C:/derome/MRKT Tutorials (1)
+C:/derome/MRKT Tutorials (1)
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.20 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 73.60 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/GitHub/derome/MRKT Tutorials (1)/Assets
+[Subsystems] Discovering subsystems at path C:/derome/MRKT Tutorials (1)/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
     Vendor:   
-    VRAM:     4018 MB
-    Driver:   30.0.14.9709
+    VRAM:     8151 MB
+    Driver:   30.0.14011.3017
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56812
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001858 seconds.
+Registered in 0.001552 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 66.88 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 63.33 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.034 seconds
+- Completed reload, in  0.991 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1035ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (991ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (428ms)
-			LoadAssemblies (49ms)
+		EndReloadAssembly (375ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (136ms)
+			SetupTypeCache (125ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (188ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (161ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (65ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008079 seconds.
+Registered in 0.007104 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F305B371C0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3077660C0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307A44010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305F1E030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307C03630 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307A4EC20 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3089E7850 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305F1E030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30844A700 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307C03630 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308C979E0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307A5CC30 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308C55020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3059D7030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3077660C0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308934020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307A2C620 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B371C0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F309114010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B371C0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305A35C30 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308FCE020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30903A040 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3079C2230 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305E8BE10 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3059FE460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30903A040 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3077660C0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308F07700 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F309114010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307C03630 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307C03630 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308FF8660 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305AF1630 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308FF8660 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308FF8660 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F309009870 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305F20E40 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307B52450 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3059FE460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30815B020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308EE7950 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3059FE460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305F20E40 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30601ABB0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30900FA90 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B29400 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308175830 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B29400 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308188240 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308B47010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305A95020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30831E630 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308994C40 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307980A50 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305AABDA0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308994C40 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308B47010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308B47010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308997840 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30951A020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3079C2230 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B9BF30 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30909A030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307DDD440 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308E2CC50 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308998C60 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3059FE460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30900FA90 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308B7D840 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307865E60 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30900FA90 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307E46010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308998C60 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305E89500 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308997080 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3079C2230 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307D27040 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308998C60 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305AEBB30 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305F20E40 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307866530 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F309336C90 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305F20E40 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307E6AE20 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30909F840 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307862DE0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 64.15 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 65.78 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [XR] Error loading subsystem: Display (1) (header mismatch?)
-[XR] [MROpenXR][Info   ][12:08:37.340494][tid:643c] MeshProvider_RegisterLifecycleProvider
-[XR] [MROpenXR][Info   ][12:08:37.340575][tid:643c] InputProvider_RegisterLifeCycleProvider
-[XR] [MROpenXR][Info   ][12:08:37.341234][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
-[XR] [MROpenXR][Info   ][12:08:37.341703][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
-[XR] [MROpenXR][Info   ][12:08:37.341746][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.0.0
-[XR] [MROpenXR][Info   ][12:08:37.341810][tid:643c] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][18:02:36.682540][tid:44c4] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][18:02:36.682627][tid:44c4] InputProvider_RegisterLifeCycleProvider
+[XR] [MROpenXR][Info   ][18:02:36.683171][tid:44c4] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][18:02:36.683612][tid:44c4] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][18:02:36.683654][tid:44c4] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][18:02:36.683708][tid:44c4] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  1.896 seconds
+- Completed reload, in  1.866 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1897ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1867ms)
+		BeginReloadAssembly (129ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1709ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1680ms)
+			LoadAssemblies (98ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
+			SetupTypeCache (304ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (1095ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (1105ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (740ms)
-				ProcessInitializeOnLoadMethodAttributes (173ms)
+				RefreshPlugins (66ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (738ms)
+				ProcessInitializeOnLoadMethodAttributes (201ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 10 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3797 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 146.8 MB.
-System memory in use after: 147.0 MB.
+Unloading 3872 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.0 MB.
+System memory in use after: 152.8 MB.
 
-Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 4259.
-Total: 3.386800 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.176700 ms MarkObjects: 2.827000 ms  DeleteObjects: 0.090300 ms)
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 4323.
+Total: 4.018500 ms (FindLiveObjects: 0.469800 ms CreateObjectMapping: 0.109200 ms MarkObjects: 3.249900 ms  DeleteObjects: 0.188300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -136,262 +307,1252 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/New Folder
-  artifactKey: Guid(619a224af561d0c4d88aab6659d87efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(619a224af561d0c4d88aab6659d87efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382208871d742348bdb80f4660d187c5') in 0.010081 seconds 
-  Import took 0.015692 seconds .
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.011252 seconds 
+  Import took 0.016940 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.432004 seconds.
-  path: Assets/Script
-  artifactKey: Guid(619a224af561d0c4d88aab6659d87efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script using Guid(619a224af561d0c4d88aab6659d87efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7242572d3a4008f2eea09d8a92a42655') in 0.006573 seconds 
-  Import took 0.011642 seconds .
+  Time since last request: 1454.392227 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PanContent.mat
+  artifactKey: Guid(a6066557d0b74ca4f8c1b9bc571e33e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PanContent.mat using Guid(a6066557d0b74ca4f8c1b9bc571e33e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95487d076eea574c00a7b2108168bc8f') in 0.115627 seconds 
+  Import took 0.122112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/ProgressIndicatorLoadingBarEmpty.mat
+  artifactKey: Guid(49f2e3951c260b041bd8fcefbe639705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/ProgressIndicatorLoadingBarEmpty.mat using Guid(49f2e3951c260b041bd8fcefbe639705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9416ebc142348b5ad14abd0707130a1e') in 0.019814 seconds 
+  Import took 0.024887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PanContent.mat
+  artifactKey: Guid(a6066557d0b74ca4f8c1b9bc571e33e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PanContent.mat using Guid(a6066557d0b74ca4f8c1b9bc571e33e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95487d076eea574c00a7b2108168bc8f') in 0.016781 seconds 
+  Import took 0.022204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/RiggedHandVisualizer/RiggedHand.mat
+  artifactKey: Guid(4c63e230f530e6c4e8be8b25846c0989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Prefabs/RiggedHandVisualizer/RiggedHand.mat using Guid(4c63e230f530e6c4e8be8b25846c0989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7edaf5d2a93875f3fcf8dc424bc81d') in 0.020865 seconds 
+  Import took 0.026433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/ProgressIndicatorRotatingOrbsMat.mat
+  artifactKey: Guid(ad63588c7e076084a90378e695622194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/ProgressIndicatorRotatingOrbsMat.mat using Guid(ad63588c7e076084a90378e695622194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca03021395d5d6cea8adf0229367af2') in 0.016292 seconds 
+  Import took 0.021672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/PanExampleContent.mat
+  artifactKey: Guid(d2a40ec9be92da646a18523f98205d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/PanExampleContent.mat using Guid(d2a40ec9be92da646a18523f98205d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387847273255338843dae1102078fe93') in 0.078341 seconds 
+  Import took 0.083548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PinchSliderTickMarkMaterial.mat
+  artifactKey: Guid(ed82846a116c9d340b4f3b698b37659b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PinchSliderTickMarkMaterial.mat using Guid(ed82846a116c9d340b4f3b698b37659b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f206495e3dcff16ab4a4ee19c60c63f8') in 0.022140 seconds 
+  Import took 0.027384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/PanExampleContent.mat
+  artifactKey: Guid(d2a40ec9be92da646a18523f98205d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/PanExampleContent.mat using Guid(d2a40ec9be92da646a18523f98205d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387847273255338843dae1102078fe93') in 0.008374 seconds 
+  Import took 0.013354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PinchSliderTickMarkMaterial.mat
+  artifactKey: Guid(ed82846a116c9d340b4f3b698b37659b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PinchSliderTickMarkMaterial.mat using Guid(ed82846a116c9d340b4f3b698b37659b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f206495e3dcff16ab4a4ee19c60c63f8') in 0.010330 seconds 
+  Import took 0.015534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/ProgressIndicatorRotatingObject.mat
+  artifactKey: Guid(59d1a944c3539e948a06381c3e5d6b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/ProgressIndicatorRotatingObject.mat using Guid(59d1a944c3539e948a06381c3e5d6b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75639a524052fd553581d524addc6971') in 0.050864 seconds 
+  Import took 0.056314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/ProgressIndicatorLoadingBarFilled.mat
+  artifactKey: Guid(fc087f02f2268a2469e7b85f72816d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/ProgressIndicatorLoadingBarFilled.mat using Guid(fc087f02f2268a2469e7b85f72816d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3005288fe29054f34f2567f0bc330b11') in 0.015446 seconds 
+  Import took 0.020501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.508481 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/segoeui SDF.asset
+  artifactKey: Guid(afc8299d5d5bbd440a0616c8ecbc7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/segoeui SDF.asset using Guid(afc8299d5d5bbd440a0616c8ecbc7217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9f81f4d72c8322e8c2f43da7eb4e41') in 0.029863 seconds 
+  Import took 0.035665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/segoeui SDF_zwrite_off.asset
+  artifactKey: Guid(32aad78585988cc43838b0d2bd36aff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/segoeui SDF_zwrite_off.asset using Guid(32aad78585988cc43838b0d2bd36aff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0265955bf5dc47a4eb7643c3f061495c') in 0.020939 seconds 
+  Import took 0.026260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.265236 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/segoeuib SDF_zwrite_off.asset
+  artifactKey: Guid(f137eba12ee10834cb19632437cfdb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/segoeuib SDF_zwrite_off.asset using Guid(f137eba12ee10834cb19632437cfdb2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3adba28abe9b4f2a9d7d9736bfd1b347') in 0.018931 seconds 
+  Import took 0.024760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/segoeuib SDF.asset
+  artifactKey: Guid(708ca4cbd1d60c64184b76fa75044402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/segoeuib SDF.asset using Guid(708ca4cbd1d60c64184b76fa75044402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '561f944a080c4116d0689397e16b376e') in 0.019633 seconds 
+  Import took 0.024863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.297988 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/segoeuil SDF_zwrite_off.asset
+  artifactKey: Guid(cf40b52fb3478de4ea4adf277e3b75ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/segoeuil SDF_zwrite_off.asset using Guid(cf40b52fb3478de4ea4adf277e3b75ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2063edf662bec1722100a48a7eb19616') in 0.018697 seconds 
+  Import took 0.024607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/segoeuil SDF.asset
+  artifactKey: Guid(8349af0188f70214ba25245a3c05ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/segoeuil SDF.asset using Guid(8349af0188f70214ba25245a3c05ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66aed09e3a2e43dd13c051f50efe075b') in 0.019849 seconds 
+  Import took 0.025160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.761873 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/segoeuisl SDF_zwrite_off.asset
+  artifactKey: Guid(d94d0d64ec3545b408d5621e7d27cf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/segoeuisl SDF_zwrite_off.asset using Guid(d94d0d64ec3545b408d5621e7d27cf96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e405dab4676c5cb77939d0615122cf93') in 0.019769 seconds 
+  Import took 0.025604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/segoeuisl SDF.asset
+  artifactKey: Guid(c334791383d1d8042b3a69a77b6b3283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/segoeuisl SDF.asset using Guid(c334791383d1d8042b3a69a77b6b3283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a85dd06d5ad946720501f1348d807a') in 0.019453 seconds 
+  Import took 0.024570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.276464 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/seguibl SDF_zwrite_off.asset
+  artifactKey: Guid(8f25585131267564cab5bbdafd36a94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/seguibl SDF_zwrite_off.asset using Guid(8f25585131267564cab5bbdafd36a94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cec754b7904e45ce3e6f841ce6491d0') in 0.019069 seconds 
+  Import took 0.024802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/seguibl SDF.asset
+  artifactKey: Guid(1e1a3bf70c1dc22478ff4fc9837e570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/seguibl SDF.asset using Guid(1e1a3bf70c1dc22478ff4fc9837e570e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baba278ce32fb92fe393edf6c6f48c17') in 0.019192 seconds 
+  Import took 0.024082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040369 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/seguisb SDF_zwrite_off.asset
+  artifactKey: Guid(ad601d838b0fb2744937cd5dad890e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOff/seguisb SDF_zwrite_off.asset using Guid(ad601d838b0fb2744937cd5dad890e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b0beb597edfefff7cdddf2ac308046') in 0.018019 seconds 
+  Import took 0.023951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/seguisb SDF.asset
+  artifactKey: Guid(6a84f857bec7e7345843ae29404c57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/seguisb SDF.asset using Guid(6a84f857bec7e7345843ae29404c57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ad2462aad9318c0cfbd352b6573346') in 0.020147 seconds 
+  Import took 0.025879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003889 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/seguisb SDF.asset
+  artifactKey: Guid(6a84f857bec7e7345843ae29404c57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/FontsSDFTextures/DepthWriteOn/seguisb SDF.asset using Guid(6a84f857bec7e7345843ae29404c57ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ad2462aad9318c0cfbd352b6573346') in 0.017975 seconds 
+  Import took 0.023340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.993799 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Meshes/Cursors/Materials/Shadow.mat
+  artifactKey: Guid(fc1b6cd8da653e3448dcdb722ada2ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Meshes/Cursors/Materials/Shadow.mat using Guid(fc1b6cd8da653e3448dcdb722ada2ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2051c73a973d47a58210de271a7f9d') in 0.014524 seconds 
+  Import took 0.020376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030565 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/HandCoach/Teaching_Hand2.mat
+  artifactKey: Guid(ac6cdef968e49e84f9c34a9978afcdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/HandCoach/Teaching_Hand2.mat using Guid(ac6cdef968e49e84f9c34a9978afcdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b396d97fabbd5b478019b41187af8332') in 0.013975 seconds 
+  Import took 0.019619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.311920 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/Teleport/TeleportArrow.mat
+  artifactKey: Guid(333f66f665b79014ca2dd1e314e48b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/Teleport/TeleportArrow.mat using Guid(333f66f665b79014ca2dd1e314e48b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0adc52bcff35bba46c2218f5ba1b82') in 0.015651 seconds 
+  Import took 0.021622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/Teleport/TeleportBase.mat
+  artifactKey: Guid(3cb2d87ea9463e642b8419db5ab1b7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/Teleport/TeleportBase.mat using Guid(3cb2d87ea9463e642b8419db5ab1b7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3517faeb4cf710223da4d68b54bda4') in 0.016271 seconds 
+  Import took 0.021543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016631 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/Teleport/TeleportBase.mat
+  artifactKey: Guid(3cb2d87ea9463e642b8419db5ab1b7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/Teleport/TeleportBase.mat using Guid(3cb2d87ea9463e642b8419db5ab1b7cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3517faeb4cf710223da4d68b54bda4') in 0.008160 seconds 
+  Import took 0.015031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.566713 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/Teleport/TeleportMid.mat
+  artifactKey: Guid(a893882fba7427a438873bc75ca242a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/Teleport/TeleportMid.mat using Guid(a893882fba7427a438873bc75ca242a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15323bf7d58edb1001021a336448834') in 0.016499 seconds 
+  Import took 0.022551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawik.mat
+  artifactKey: Guid(27e8d7c95f97434681887029d5c7a928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawik.mat using Guid(27e8d7c95f97434681887029d5c7a928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617f31ff809d54b6d16f9381a9d88b81') in 0.017180 seconds 
+  Import took 0.023023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawikLight.mat
+  artifactKey: Guid(07c12c0ec28e4b8c8f083045ea0765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawikLight.mat using Guid(07c12c0ec28e4b8c8f083045ea0765ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856e704da2126c3180b4d5dff203c50a') in 0.017392 seconds 
+  Import took 0.022643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/Teleport/TeleportMid.mat
+  artifactKey: Guid(a893882fba7427a438873bc75ca242a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/Teleport/TeleportMid.mat using Guid(a893882fba7427a438873bc75ca242a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15323bf7d58edb1001021a336448834') in 0.009045 seconds 
+  Import took 0.015056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawik.mat
+  artifactKey: Guid(27e8d7c95f97434681887029d5c7a928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawik.mat using Guid(27e8d7c95f97434681887029d5c7a928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617f31ff809d54b6d16f9381a9d88b81') in 0.008417 seconds 
+  Import took 0.014247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawikBold.mat
+  artifactKey: Guid(114fd1489fbd406ab097068cd1fa8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawikBold.mat using Guid(114fd1489fbd406ab097068cd1fa8842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad55ebe8cf0d4fa789a5cf9083d5860') in 0.016718 seconds 
+  Import took 0.021864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.497191 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawikSemibold.mat
+  artifactKey: Guid(995259be68dc4fa98ed72600bc3cc149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawikSemibold.mat using Guid(995259be68dc4fa98ed72600bc3cc149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32d3541a774afdf6fdda8a63cdc319d') in 0.014948 seconds 
+  Import took 0.020906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawikSemilight.mat
+  artifactKey: Guid(f994cbd38a764af182fc2d9c96693ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/Text3DSelawikSemilight.mat using Guid(f994cbd38a764af182fc2d9c96693ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08e1c72fa38ee4d46fdf8400e8db6a5') in 0.016518 seconds 
+  Import took 0.021446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.483828 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/ToggleBackground.mat
+  artifactKey: Guid(a07d81f563d59544fb6ae5588f5bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/ToggleBackground.mat using Guid(a07d81f563d59544fb6ae5588f5bd0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027e2dac0ac7b3676b02d29270686b52') in 0.015711 seconds 
+  Import took 0.021391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/ToggleButton.mat
+  artifactKey: Guid(09c36cbdc8249664dacdf98f70d27be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/ToggleButton.mat using Guid(09c36cbdc8249664dacdf98f70d27be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913981e03ba5ffa42a403e91a5d967a8') in 0.015443 seconds 
+  Import took 0.021146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041987 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/ToggleIcon.mat
+  artifactKey: Guid(6801601dde9962843aa1336de93505f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/ToggleIcon.mat using Guid(6801601dde9962843aa1336de93505f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5998da0730016ada5ef7168af88e9573') in 0.014774 seconds 
+  Import took 0.020766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/TooltipLines.mat
+  artifactKey: Guid(424283b2185ed5045bf2b621e2ca6950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/TooltipLines.mat using Guid(424283b2185ed5045bf2b621e2ca6950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6159d59a0764319218c512271a079fe6') in 0.016732 seconds 
+  Import took 0.021647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046701 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/TooltipWithBorder.mat
+  artifactKey: Guid(bf8139ce01f74164bb3003ed8a498e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/TooltipWithBorder.mat using Guid(bf8139ce01f74164bb3003ed8a498e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a942f5245d0f55f82fc70216575597a7') in 0.074545 seconds 
+  Import took 0.080394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/TooltipWithoutBorder.mat
+  artifactKey: Guid(5d32de94858bee047bb11ab4714b6d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/TooltipWithoutBorder.mat using Guid(5d32de94858bee047bb11ab4714b6d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd139b9e5638cfffcc974bd5a3ae2118') in 0.016212 seconds 
+  Import took 0.021961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070460 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/UIDarkGray.mat
+  artifactKey: Guid(a8de2758c4b4460cae694f0d50d94fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/UIDarkGray.mat using Guid(a8de2758c4b4460cae694f0d50d94fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc5a5dd9159f239cc2858663e194642a') in 0.020867 seconds 
+  Import took 0.026715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090156 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/UnityUIBackground.mat
+  artifactKey: Guid(9da0afcd6988c6d47a8cc8609ca3315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/UnityUIBackground.mat using Guid(9da0afcd6988c6d47a8cc8609ca3315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79ea3e0373aba43fca2beab4f636899') in 0.086853 seconds 
+  Import took 0.092697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.085553 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTKLogo.mat
+  artifactKey: Guid(65e7f8d2543587e45ad84ae8eac24bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTKLogo.mat using Guid(65e7f8d2543587e45ad84ae8eac24bc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d37807338a82fd55c64a9c28923c1f9') in 0.045151 seconds 
+  Import took 0.051305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentWhite.mat
+  artifactKey: Guid(978c13c1492639341a61913375335e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentWhite.mat using Guid(978c13c1492639341a61913375335e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e90eca1a45fd85033bf9518d80a08fa') in 0.058857 seconds 
+  Import took 0.063789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Green.mat
+  artifactKey: Guid(47f3c5e1cb6142ba9697cd4c86d74321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Green.mat using Guid(47f3c5e1cb6142ba9697cd4c86d74321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b3c1cd8cdbc8ed4d57eb9a4436c443') in 0.013153 seconds 
+  Import took 0.018125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentRed.mat
+  artifactKey: Guid(635a27f13b7b26b4483bc1283d04803e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentRed.mat using Guid(635a27f13b7b26b4483bc1283d04803e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c85bc4917dde2b0715610991ac3f81e') in 0.015628 seconds 
+  Import took 0.020702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Gray.mat
+  artifactKey: Guid(835cb4a58f172d7478801db95e510f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Gray.mat using Guid(835cb4a58f172d7478801db95e510f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052fdeebf235a04cd8189f6d6053aa3a') in 0.016124 seconds 
+  Import took 0.021900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentMagenta.mat
+  artifactKey: Guid(6c0366ebfed014a40a2e6923663c7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentMagenta.mat using Guid(6c0366ebfed014a40a2e6923663c7381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c251310f787451ca0582231ea48635fd') in 0.015946 seconds 
+  Import took 0.020995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_GlowingCyan.mat
+  artifactKey: Guid(27a6136d64696da4eba1b89b3df8d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_GlowingCyan.mat using Guid(27a6136d64696da4eba1b89b3df8d3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6e0fd0b72fe4c35e69be8c563abb53') in 0.026168 seconds 
+  Import took 0.031091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTK_GrabbableDots2RowsH_NoFade.mat
+  artifactKey: Guid(762ee309ef36e42418a2f1eb12102129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTK_GrabbableDots2RowsH_NoFade.mat using Guid(762ee309ef36e42418a2f1eb12102129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4b7a1eb2b3476c634e0648a3be1ffd') in 0.017172 seconds 
+  Import took 0.022991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTK_GrabbableDots2RowsV1.mat
+  artifactKey: Guid(e28b3473906c8764a948650d42b975c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTK_GrabbableDots2RowsV1.mat using Guid(e28b3473906c8764a948650d42b975c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1835dfbd2a0d3d7b9bb1c6125b113a49') in 0.020265 seconds 
+  Import took 0.025436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_PurpleDesaturated.mat
+  artifactKey: Guid(e4c84336a1663704083b58c1b3d8cedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_PurpleDesaturated.mat using Guid(e4c84336a1663704083b58c1b3d8cedf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce2e46ba58349d6409303040def9e73') in 0.015931 seconds 
+  Import took 0.021107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_UnlitWhite.mat
+  artifactKey: Guid(8f2fb2809320347428c67ea7c78ef4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_UnlitWhite.mat using Guid(8f2fb2809320347428c67ea7c78ef4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda8fbc483cbdd1cefe11be791b765cc') in 0.015419 seconds 
+  Import took 0.021149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentGreen.mat
+  artifactKey: Guid(163c37494bc2d0540b3488a9d901ee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentGreen.mat using Guid(163c37494bc2d0540b3488a9d901ee07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d1a95358bbbe219327bb45f71511fa') in 0.015438 seconds 
+  Import took 0.020632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_Slider_Default.mat
+  artifactKey: Guid(43ed2047eeac4e54386d3eeb3f7cba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_Slider_Default.mat using Guid(43ed2047eeac4e54386d3eeb3f7cba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548971ce0dd885705a53d2eae1074ff5') in 0.016459 seconds 
+  Import took 0.021551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTK_GrabbableDots2RowsV2.mat
+  artifactKey: Guid(15c4e4b880f2be34790dce1a74139d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTK_GrabbableDots2RowsV2.mat using Guid(15c4e4b880f2be34790dce1a74139d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73b607b33d91a4e2eccafbf1dc7b629') in 0.015068 seconds 
+  Import took 0.020180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Purple.mat
+  artifactKey: Guid(d808c628536649eaa61f2a2f2d16c6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Purple.mat using Guid(d808c628536649eaa61f2a2f2d16c6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d78bcbdf86224d4d3bc0c547b7aa835') in 0.015738 seconds 
+  Import took 0.021130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentLightGray.mat
+  artifactKey: Guid(9921ca73d1b94b24aba7726b9df6db8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentLightGray.mat using Guid(9921ca73d1b94b24aba7726b9df6db8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4700c8bfc410d60f20b12414524f651f') in 0.015442 seconds 
+  Import took 0.020525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PulseShader/MRTK_Pulse_SpatialMeshPurple.mat
+  artifactKey: Guid(3a3a03a9e0a1eb24eb192533df212c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PulseShader/MRTK_Pulse_SpatialMeshPurple.mat using Guid(3a3a03a9e0a1eb24eb192533df212c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '571bff995fadb0ba0bb6748b1b515d72') in 0.036550 seconds 
+  Import took 0.042480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_GrabPointerTetherLine.mat
+  artifactKey: Guid(e74b90b0fec1bef4fa500cebdb12d821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_GrabPointerTetherLine.mat using Guid(e74b90b0fec1bef4fa500cebdb12d821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396a386db9e9a4e171d6ce8abcdffb7b') in 0.046789 seconds 
+  Import took 0.051813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_FingerTipCursor.mat
+  artifactKey: Guid(aa5119690ae21f44cbf896a1ee51d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_FingerTipCursor.mat using Guid(aa5119690ae21f44cbf896a1ee51d015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f773775ddd37a11eeda378d6b2f760c') in 0.014804 seconds 
+  Import took 0.019840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentDarkGray.mat
+  artifactKey: Guid(07ebc80273d64c84b923be3e5f484151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentDarkGray.mat using Guid(07ebc80273d64c84b923be3e5f484151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7de364778d11bdc349dfdb51964fde3') in 0.081649 seconds 
+  Import took 0.087478 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_DarkGray.mat
+  artifactKey: Guid(f40914b49f8741e39df5b08d3db15497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_DarkGray.mat using Guid(f40914b49f8741e39df5b08d3db15497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b745295e3ee0beb0fb22c61cf881d9f6') in 0.015520 seconds 
+  Import took 0.020614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Cyan.mat
+  artifactKey: Guid(53ea63593b32415faf734536616f5fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Cyan.mat using Guid(53ea63593b32415faf734536616f5fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf19ca674c57271b10e756a60d6049f0') in 0.016804 seconds 
+  Import took 0.022860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentLime.mat
+  artifactKey: Guid(d8efdb3c98967354dad720c9f34297fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentLime.mat using Guid(d8efdb3c98967354dad720c9f34297fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cb3d8bf34b6331145cfd1c6dfea023') in 0.015803 seconds 
+  Import took 0.020900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PulseShader/MRTK_Pulse_ArticulatedHandMeshBlue.mat
+  artifactKey: Guid(8898ca407d928454d876a616ba1be32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PulseShader/MRTK_Pulse_ArticulatedHandMeshBlue.mat using Guid(8898ca407d928454d876a616ba1be32e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1540748155a407f8b64431a9c797aa6b') in 0.055310 seconds 
+  Import took 0.060203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Blue.mat
+  artifactKey: Guid(3c55769e893c4f4c8c51b7fa69bee2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Blue.mat using Guid(3c55769e893c4f4c8c51b7fa69bee2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77500debe5e484ca203222f861c4b8db') in 0.011444 seconds 
+  Import took 0.016433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_LightGray.mat
+  artifactKey: Guid(d5334c45caee46be937b095a1e977dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_LightGray.mat using Guid(d5334c45caee46be937b095a1e977dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55ce5af1fd976c92998ebafb469e502') in 0.015925 seconds 
+  Import took 0.021177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_White.mat
+  artifactKey: Guid(680505b4b4f3400f9fd3ebb242751819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_White.mat using Guid(680505b4b4f3400f9fd3ebb242751819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3fe9729a4a672c2014a5fc7467e076') in 0.015885 seconds 
+  Import took 0.021952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Emerald.mat
+  artifactKey: Guid(b0fcdc3322e34d9ea83e8399bd9f4031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Emerald.mat using Guid(b0fcdc3322e34d9ea83e8399bd9f4031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79adf05bab3e18f1b5bad0bfe03dd2c') in 0.016107 seconds 
+  Import took 0.021133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Orange.mat
+  artifactKey: Guid(71d471797c0e430783230146721c3fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Orange.mat using Guid(71d471797c0e430783230146721c3fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31df7f9d56c5ad7c12941487aaed6ad9') in 0.016085 seconds 
+  Import took 0.022194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Black.mat
+  artifactKey: Guid(54322026142964d4084eda2478d9b1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Black.mat using Guid(54322026142964d4084eda2478d9b1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a9a580085a5958e0eb83f0ec6c5186') in 0.041031 seconds 
+  Import took 0.046357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Lime.mat
+  artifactKey: Guid(00665e2a669d4b0fab1965843b4c914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Lime.mat using Guid(00665e2a669d4b0fab1965843b4c914b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9927fbd983aa120df308bedb6bf3c420') in 0.016878 seconds 
+  Import took 0.021959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentYellow.mat
+  artifactKey: Guid(6a92a01febd262544a43a7fe54b88013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentYellow.mat using Guid(6a92a01febd262544a43a7fe54b88013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dd36e1a371d900c4fc3c40119a7377') in 0.014829 seconds 
+  Import took 0.020192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentPurple.mat
+  artifactKey: Guid(0d8c6bb9c868a9246abea5b9462b401f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentPurple.mat using Guid(0d8c6bb9c868a9246abea5b9462b401f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520383ef74e543e104573e13d1f1d48c') in 0.016226 seconds 
+  Import took 0.021596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_GlowingOrange.mat
+  artifactKey: Guid(a50237e3265fe9149a16e889fd8d8b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_GlowingOrange.mat using Guid(a50237e3265fe9149a16e889fd8d8b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf7c8ebe9e6866ce4b3bac1a957fd28') in 0.019683 seconds 
+  Import took 0.025918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Wireframe.mat
+  artifactKey: Guid(47c3d3b0d8143e3489351498fceed55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Wireframe.mat using Guid(47c3d3b0d8143e3489351498fceed55d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877cc33b7400b56fc946ae93ae20b2e4') in 0.016684 seconds 
+  Import took 0.021840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_LimeDesaturated.mat
+  artifactKey: Guid(56848fd596f082a43844edfc0e7647ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_LimeDesaturated.mat using Guid(56848fd596f082a43844edfc0e7647ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e04877946ae1bc570d69ce085c8e6f') in 0.015821 seconds 
+  Import took 0.020976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTK_GrabbableDots2RowsH.mat
+  artifactKey: Guid(13a6bafb89ca6414895d965b2fdb2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTK_GrabbableDots2RowsH.mat using Guid(13a6bafb89ca6414895d965b2fdb2041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e11b74714edfab4f2c9454d3c927163') in 0.015552 seconds 
+  Import took 0.020721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_DefaultPointerLine.mat
+  artifactKey: Guid(11727442de02c1d4b8d37a063c748aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_DefaultPointerLine.mat using Guid(11727442de02c1d4b8d37a063c748aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44be71c1d28a30d10c9d566d0d45ce1') in 0.042693 seconds 
+  Import took 0.048497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_PressableInteractablesButtonBox.mat
+  artifactKey: Guid(38a587e9218b3284485088c9925af61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_PressableInteractablesButtonBox.mat using Guid(38a587e9218b3284485088c9925af61f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493c391de1cd9beff3a4a686d3bac493') in 0.012293 seconds 
+  Import took 0.017708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentPink.mat
+  artifactKey: Guid(0e3f68a0b25245e4d9a3e2380c8ac1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentPink.mat using Guid(0e3f68a0b25245e4d9a3e2380c8ac1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa44923927ed0066af6677c1f757095c') in 0.016001 seconds 
+  Import took 0.021537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTKStandardUnityUI.mat
+  artifactKey: Guid(64f43441f426679429ed0954968037af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTKStandardUnityUI.mat using Guid(64f43441f426679429ed0954968037af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e49808af02020ec6b0d25c7c68059b') in 0.040015 seconds 
+  Import took 0.045869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentOrange.mat
+  artifactKey: Guid(4e7efd468ef796b4cbdefce6c9b071f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentOrange.mat using Guid(4e7efd468ef796b4cbdefce6c9b071f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12539fa78a642a1abfdcac05a6206c7') in 0.015248 seconds 
+  Import took 0.020941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_DarkBrown.mat
+  artifactKey: Guid(a7448698c15706f48905e44d8e76f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_DarkBrown.mat using Guid(a7448698c15706f48905e44d8e76f2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3a7beddf18017da3bffbb8d2fabd22') in 0.015766 seconds 
+  Import took 0.020837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentEmerald.mat
+  artifactKey: Guid(ab6b5d4dc17c48bbab69426bced2d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentEmerald.mat using Guid(ab6b5d4dc17c48bbab69426bced2d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8a7c60c4119982ff693f5bb7a16c1d') in 0.015610 seconds 
+  Import took 0.020824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PulseShader/MRTK_Pulse_ArticulatedHandMeshPurple.mat
+  artifactKey: Guid(7bf2a7a504e67394d98ccd4e06fbc7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PulseShader/MRTK_Pulse_ArticulatedHandMeshPurple.mat using Guid(7bf2a7a504e67394d98ccd4e06fbc7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3c603af0ac99b8b2637c787a5e7cbe') in 0.015247 seconds 
+  Import took 0.020664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentGray.mat
+  artifactKey: Guid(caaf928081244ea78e869b5904d8ddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentGray.mat using Guid(caaf928081244ea78e869b5904d8ddff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7debebe87660e08e1b64d3b1004b58af') in 0.016026 seconds 
+  Import took 0.021574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PulseShader/MRTK_Pulse_SpatialMeshBlue.mat
+  artifactKey: Guid(b24e702ba4a7dd14bb78e04ea42311ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Materials/PulseShader/MRTK_Pulse_SpatialMeshBlue.mat using Guid(b24e702ba4a7dd14bb78e04ea42311ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3219b1c1e4eea81e188612949f16909d') in 0.015371 seconds 
+  Import took 0.020610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Red.mat
+  artifactKey: Guid(c4a1b7475a654dd0acaa0cfdfba2e20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Red.mat using Guid(c4a1b7475a654dd0acaa0cfdfba2e20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68c8904ceb0072277620cbad3db859a') in 0.014641 seconds 
+  Import took 0.019744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentCharcoal.mat
+  artifactKey: Guid(68b4661a8a0b2644b886f95904c52ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentCharcoal.mat using Guid(68b4661a8a0b2644b886f95904c52ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09967f4712e730aeb720a1640555d357') in 0.016334 seconds 
+  Import took 0.021865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_GrabPointerGrabPoint.mat
+  artifactKey: Guid(fc1d56dcfc4950949a5b56a1399a1822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_GrabPointerGrabPoint.mat using Guid(fc1d56dcfc4950949a5b56a1399a1822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dbef5e5ec5a5ac005175b23b21cefd') in 0.011559 seconds 
+  Import took 0.017545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Occlusion.mat
+  artifactKey: Guid(a809c7ea182b699409443d46d5b42435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Occlusion.mat using Guid(a809c7ea182b699409443d46d5b42435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30164bac0dddbbd48bcb93120bff7d5') in 0.013447 seconds 
+  Import took 0.019154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTK_GrabbableDots.mat
+  artifactKey: Guid(1d3d3b8b33373be4ba8d3b1676d2b5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/MRTK_GrabbableDots.mat using Guid(1d3d3b8b33373be4ba8d3b1676d2b5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb0cf139f1bd44a4a3ff504af1d034d') in 0.015644 seconds 
+  Import took 0.021298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Magenta.mat
+  artifactKey: Guid(71d573ea4cb045cdadc98e56044f6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Magenta.mat using Guid(71d573ea4cb045cdadc98e56044f6d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620d28bb5dc5b29f3843243e8e7a7112') in 0.015634 seconds 
+  Import took 0.021224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_DefaultPointerLineNoTarget.mat
+  artifactKey: Guid(876c7e981edab3a44918b5c51482a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_DefaultPointerLineNoTarget.mat using Guid(876c7e981edab3a44918b5c51482a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a1e5db007c4776bd4924aa2add5c30') in 0.012534 seconds 
+  Import took 0.018591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_WireframeBlue.mat
+  artifactKey: Guid(a923a5d1aebc7fe449b4ab3289da537b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_WireframeBlue.mat using Guid(a923a5d1aebc7fe449b4ab3289da537b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0231e927297e2a1ebf1eee5c73fc19f8') in 0.016298 seconds 
+  Import took 0.021572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Yellow.mat
+  artifactKey: Guid(cb74390ea57642f8b5ca0aa8f5fb38c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Yellow.mat using Guid(cb74390ea57642f8b5ca0aa8f5fb38c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf369da5e7346d07cb2af34013826f9') in 0.012355 seconds 
+  Import took 0.018501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Pink.mat
+  artifactKey: Guid(67e4ae112f094f3082e033060c3cd298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Pink.mat using Guid(67e4ae112f094f3082e033060c3cd298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5959e7f6d56d94170c80930acf3be15') in 0.015543 seconds 
+  Import took 0.021017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentBlue.mat
+  artifactKey: Guid(0530d90ba2a117e4f95c7a6345e8bb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentBlue.mat using Guid(0530d90ba2a117e4f95c7a6345e8bb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09d07ebe94482f2c1f7aae0d9402c9f6') in 0.016778 seconds 
+  Import took 0.022763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Charcoal.mat
+  artifactKey: Guid(a5e028070ace428d8971079be1d965a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_Charcoal.mat using Guid(a5e028070ace428d8971079be1d965a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfeaae06516d68a67cb74c763fab7a5') in 0.015618 seconds 
+  Import took 0.021305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.652389 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentCyan.mat
+  artifactKey: Guid(c6bd404f506e1894289fde7b1689f901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials/MRTK_Standard_TransparentCyan.mat using Guid(c6bd404f506e1894289fde7b1689f901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f5ab7a60b14fd0252364e99dab841f') in 0.011765 seconds 
+  Import took 0.017934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 200.168554 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_ArticulatedHandMesh.mat
+  artifactKey: Guid(45082b98567b3d44ca3bdbe39f46041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_ArticulatedHandMesh.mat using Guid(45082b98567b3d44ca3bdbe39f46041a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a37359b3816fd5fa01ed2872622b8dd') in 0.015421 seconds 
+  Import took 0.021557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_DefaultCursor.mat
+  artifactKey: Guid(7a7df97255b549e9ad7529a9a5d4ff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MRTK_DefaultCursor.mat using Guid(7a7df97255b549e9ad7529a9a5d4ff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b84da44255a77bb324976b77a95ad5e') in 0.014445 seconds 
+  Import took 0.019347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.178755 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MouseCursor.mat
+  artifactKey: Guid(43227df6ef613c94b90ed7552efb9b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/StandardAssets/Materials/MouseCursor.mat using Guid(43227df6ef613c94b90ed7552efb9b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28504a690d11347aa51ad0f08b6df982') in 0.021689 seconds 
+  Import took 0.027644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Meshes/Cursors/Materials/MousePointer.mat
+  artifactKey: Guid(2137afd1049cf61428db6f7025881422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Meshes/Cursors/Materials/MousePointer.mat using Guid(2137afd1049cf61428db6f7025881422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37ead7afcfa3ffa22a1600b160cdf27') in 0.026764 seconds 
+  Import took 0.031745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.428007 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboardPreview/Materials/MixedRealityKeyboardPreviewCaret.mat
+  artifactKey: Guid(1427cd2949bb6c94ca4958f6da5d9826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboardPreview/Materials/MixedRealityKeyboardPreviewCaret.mat using Guid(1427cd2949bb6c94ca4958f6da5d9826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa43e89b98c091efbe5e1a16255ecc9') in 0.065333 seconds 
+  Import took 0.072310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboardPreview/Materials/MixedRealityKeyboardPreviewTextRect.mat
+  artifactKey: Guid(1fa0912959595a142b2cbae1684e0d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboardPreview/Materials/MixedRealityKeyboardPreviewTextRect.mat using Guid(1fa0912959595a142b2cbae1684e0d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3e95e073d6795dd3d9ee26e0150cb0') in 0.024334 seconds 
+  Import took 0.032325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.356929 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboardPreview/Materials/MixedRealityKeyboardPreviewBackPlate.mat
+  artifactKey: Guid(d168438bf6820144983a2ab07904ac24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboardPreview/Materials/MixedRealityKeyboardPreviewBackPlate.mat using Guid(d168438bf6820144983a2ab07904ac24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f57b05c7cfcf48c6f4c9526e53c45d5') in 0.022110 seconds 
+  Import took 0.028328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboardPreview/Materials/MixedRealityKeyboardPreviewButtonBackPlate.mat
+  artifactKey: Guid(6f99b8c3ebc31c942a5af2e66bfa5950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Experimental/MixedRealityKeyboardPreview/Materials/MixedRealityKeyboardPreviewButtonBackPlate.mat using Guid(6f99b8c3ebc31c942a5af2e66bfa5950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc146bf9d80270ff55c790493c6fcbc6') in 0.015286 seconds 
+  Import took 0.021365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.463975 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b7c8c3e3c9a45adbdca63c88707d17') in 0.030596 seconds 
+  Import took 0.036450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Meshes/Cursors/Materials/Light.mat
+  artifactKey: Guid(d7c7db2cf580ab94084f0561d16ded07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Meshes/Cursors/Materials/Light.mat using Guid(d7c7db2cf580ab94084f0561d16ded07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12293d0ce7b64bbee6bdfd088d2170bd') in 0.015034 seconds 
+  Import took 0.020245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.413707 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bfc51c5222557aa47c55c3d1b82acd') in 0.060892 seconds 
+  Import took 0.066873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c4f4f2da4d2ab57d901e0f40ae3f2f') in 0.016170 seconds 
+  Import took 0.021348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010830 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482a362b8fe5ce36b302051eaf90a735') in 0.068832 seconds 
+  Import took 0.074942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.339806 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonThinContent.mat
+  artifactKey: Guid(2908087d837e7ab4f8bc0c2b3de90823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonThinContent.mat using Guid(2908087d837e7ab4f8bc0c2b3de90823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1239d438f2f8e0f53b400269f4471d4') in 0.100906 seconds 
+  Import took 0.106883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.339670 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonPlate.mat
+  artifactKey: Guid(19bfc37fa7629b842a220853f7f60782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonPlate.mat using Guid(19bfc37fa7629b842a220853f7f60782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd41017f0b0d4a252e1ac5f288db7cfa') in 0.022391 seconds 
+  Import took 0.028311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonThickContent.mat
+  artifactKey: Guid(c4ebfa37240ed3948a5f24c53db682fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonThickContent.mat using Guid(c4ebfa37240ed3948a5f24c53db682fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd15f1518b928d71f5c9ba05f22cebc4') in 0.015674 seconds 
+  Import took 0.020649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036046 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSwitchOff.mat
+  artifactKey: Guid(937eb8c218ff97343a4c3199e9d3c095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSwitchOff.mat using Guid(937eb8c218ff97343a4c3199e9d3c095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bdaffc38cbbe53f7d586f4882c74ef7') in 0.021072 seconds 
+  Import took 0.027109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSwitchOn.mat
+  artifactKey: Guid(20c31511c9696d44d9399b948fd84c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonIconSwitchOn.mat using Guid(20c31511c9696d44d9399b948fd84c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5fd5d928a0a271a0ab0577c3c2891d') in 0.021739 seconds 
+  Import took 0.026811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.882428 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonIconStar.mat
+  artifactKey: Guid(6f0c1af0718ce6d4abe8b90d6e2c283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/SDK/Features/UX/Interactable/Materials/HolographicButtonIconStar.mat using Guid(6f0c1af0718ce6d4abe8b90d6e2c283f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75184d7a228736fabe1ee1a6d53dc8ae') in 0.016297 seconds 
+  Import took 0.022631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.205278 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe04f4b1c47efda0b652169bc2c3b62') in 0.024283 seconds 
+  Import took 0.030468 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009316 seconds.
+Registered in 0.007467 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F30D3AC7F0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307668020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3F2030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30AEB2830 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B73440 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F309185020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3098A9C50 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F306048AD0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E5EECD0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B73440 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308C98820 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305E38CD0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307CF6010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308BDD020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30603F460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30ADDD010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C7BB030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308A2B220 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F306048AD0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C153070 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308EAD030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307D9E010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E6996D0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F309193030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E5963E0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308A2B220 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E6996D0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307AB3B00 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308A2B220 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308DD1020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C7BF440 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308E2E490 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B87C80 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308A2B220 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D2B2820 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C8790B0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30603F460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308EAD030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3FB440 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D710010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307B11030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3A9FB0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D710010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308EAD030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E599AA0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D4A5550 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30603F460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B87C80 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305A27D50 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30DC9CCA0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3059CF020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C88A2C0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3A7770 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F309193030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C7BF440 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D403BE0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308DD1020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3059CF020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307CF6010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E7C2AB0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305AEB610 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F309193030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C88A2C0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305A27D50 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305AA9D90 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C88A2C0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F4DA10F940 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D710010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D4A5550 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30603F460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30B7F6060 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E7D23C0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307B11030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C21F030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E5963E0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E7C22F0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30AD83020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30603F460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C7BF440 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30DA4F980 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308EAD030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3FDC60 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30AF488F0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308EAD030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E857190 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30844CF40 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30B7F8AD0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.24 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
 System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
 System.Reflection.MethodBase:Invoke (object,object[])
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-[XR] [MROpenXR][Info   ][12:09:26.918727][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
-[XR] [MROpenXR][Info   ][12:09:26.919161][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
-[XR] [MROpenXR][Info   ][12:09:26.919214][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.0.0
-[XR] [MROpenXR][Info   ][12:09:26.919276][tid:643c] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][18:57:04.626583][tid:44c4] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][18:57:04.627034][tid:44c4] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][18:57:04.627078][tid:44c4] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][18:57:04.627137][tid:44c4] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  1.677 seconds
+- Completed reload, in  1.602 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1677ms)
-		BeginReloadAssembly (129ms)
+	ReloadAssembly (1603ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1486ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1403ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
+			SetupTypeCache (298ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (862ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (626ms)
-				ProcessInitializeOnLoadMethodAttributes (143ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.80 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3743 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.9 MB.
-System memory in use after: 143.1 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4263.
-Total: 3.204600 ms (FindLiveObjects: 0.272500 ms CreateObjectMapping: 0.159300 ms MarkObjects: 2.714200 ms  DeleteObjects: 0.057600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 42.337178 seconds.
-  path: Assets/Script/NewBehaviourScript.cs
-  artifactKey: Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/NewBehaviourScript.cs using Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5e4a19200ebb7d9998f1aaa62b3f87') in 0.031334 seconds 
-  Import took 0.036074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.158525 seconds.
-  path: Assets/Script/sceneObject.cs
-  artifactKey: Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/sceneObject.cs using Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28905560ee780d3e96601a91f9bbd0e0') in 0.006798 seconds 
-  Import took 0.012281 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002377 seconds.
-  path: Assets/Script/sceneObject.cs
-  artifactKey: Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/sceneObject.cs using Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28905560ee780d3e96601a91f9bbd0e0') in 0.003387 seconds 
-  Import took 0.011363 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008952 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-[XR] [MROpenXR][Info   ][12:09:43.530195][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
-[XR] [MROpenXR][Info   ][12:09:43.530622][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
-[XR] [MROpenXR][Info   ][12:09:43.530667][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.0.0
-[XR] [MROpenXR][Info   ][12:09:43.530768][tid:643c] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.0.0 PartA_PrivTags=33554432
-Mono: successfully reloaded assembly
-- Completed reload, in  1.608 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1608ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (1439ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (319ms)
-			ReleaseScriptCaches (7ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (800ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (570ms)
-				ProcessInitializeOnLoadMethodAttributes (132ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.79 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3743 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.0 MB.
-System memory in use after: 143.2 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4266.
-Total: 3.536700 ms (FindLiveObjects: 0.352600 ms CreateObjectMapping: 0.211400 ms MarkObjects: 2.880100 ms  DeleteObjects: 0.091000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008850 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-[XR] [MROpenXR][Info   ][12:13:45.252454][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
-[XR] [MROpenXR][Info   ][12:13:45.252888][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
-[XR] [MROpenXR][Info   ][12:13:45.252933][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.0.0
-[XR] [MROpenXR][Info   ][12:13:45.252993][tid:643c] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.0.0 PartA_PrivTags=33554432
-Mono: successfully reloaded assembly
-- Completed reload, in  1.613 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1614ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (1449ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
+			RebuildScriptCaches (41ms)
 			SetupLoadedEditorAssemblies (828ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (587ms)
-				ProcessInitializeOnLoadMethodAttributes (143ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (560ms)
+				ProcessInitializeOnLoadMethodAttributes (179ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.81 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3743 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.1 MB.
-System memory in use after: 143.3 MB.
+Unloading 3801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.5 MB.
+System memory in use after: 151.4 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4269.
-Total: 3.109500 ms (FindLiveObjects: 0.296000 ms CreateObjectMapping: 0.170100 ms MarkObjects: 2.575900 ms  DeleteObjects: 0.066500 ms)
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 4371.
+Total: 4.078300 ms (FindLiveObjects: 0.473800 ms CreateObjectMapping: 0.111400 ms MarkObjects: 3.348400 ms  DeleteObjects: 0.143600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -400,164 +1561,245 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 247.144378 seconds.
-  path: Assets/Script/sceneObject.cs
-  artifactKey: Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/sceneObject.cs using Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c968c734c494a44c28302d97097e57') in 0.004802 seconds 
-  Import took 0.009370 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007831 seconds.
+Registered in 0.007902 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001F30D3AD200 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307668020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3F2030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E5BCAA0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B73440 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30B4D7010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3098A9C50 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305F1E030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30CA7F4E0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B73440 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308C998C0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.005.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307B41050 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C173040 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30BE2E030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30603F460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30ADDD010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C7BB030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E70AF20 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F306048AD0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C154590 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308EAD030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307A90060 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30CA83020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Poly2Tri.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3FA240 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E599AA0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308A2B220 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30CA83020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305E81010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307D2C050 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308E29020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F4DA10CF20 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARSubsystems.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F4DA10CF20 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.Management.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F309032030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307D2C050 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30B702010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARSubsystems.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3094121F0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30603F460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3BBF80 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E70AF20 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARFoundation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3092E0E90 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307BE0410 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3A8180 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3092E0E90 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3BBF80 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E5951A0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D49F060 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30603F460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F309032030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30900A020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30B702010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308B47010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3FA240 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Csg.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3A9FB0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MockRuntime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30844CF40 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F4DA10CF20 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D403BE0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F308E29020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307E46010 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30C173040 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E7C0F90 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3098A0030 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3FA240 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.KdTree.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3FA240 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3074BCCB0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305AA9D90 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3FA240 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F4DA10F940 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.ProBuilder.Stl.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F3092E0E90 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D4A3020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305AEB610 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30B7F7EB0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30948B810 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F307BE0410 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E91F020 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E597F40 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E7C2AB0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3FA240 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30603F460 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F4DA10CF20 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30DA4EFE0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3BBF80 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3FE440 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30AF45650 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30D3BBF80 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30E857190 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Unity.XR.ARFoundation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F305B7CC60 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001F30B7F7EB0 doesn't match image C:\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.43 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Error when attempting to update scene info fields. Scene info data may be stale.
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
 System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
 System.Reflection.MethodBase:Invoke (object,object[])
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-[XR] [MROpenXR][Info   ][12:18:42.566237][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
-[XR] [MROpenXR][Info   ][12:18:42.566810][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
-[XR] [MROpenXR][Info   ][12:18:42.566881][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.0.0
-[XR] [MROpenXR][Info   ][12:18:42.566966][tid:643c] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.0.0 PartA_PrivTags=33554432
+[XR] [MROpenXR][Info   ][18:58:35.645348][tid:44c4] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][18:58:35.645820][tid:44c4] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][18:58:35.645864][tid:44c4] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][18:58:35.645917][tid:44c4] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
 Mono: successfully reloaded assembly
-- Completed reload, in  1.652 seconds
+- Completed reload, in  1.560 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1652ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1561ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (1474ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1391ms)
+			LoadAssemblies (89ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (312ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (830ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (591ms)
-				ProcessInitializeOnLoadMethodAttributes (147ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.16 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3743 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.1 MB.
-System memory in use after: 143.3 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4272.
-Total: 3.065300 ms (FindLiveObjects: 0.300700 ms CreateObjectMapping: 0.181100 ms MarkObjects: 2.517000 ms  DeleteObjects: 0.065400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 297.336436 seconds.
-  path: Assets/Script/sceneObject.cs
-  artifactKey: Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/sceneObject.cs using Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7821377d84d89ff2372540c4cfecf973') in 0.008691 seconds 
-  Import took 0.014333 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007464 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 10 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Error when attempting to update scene info fields. Scene info data may be stale.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogWarning (object)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:313)
-Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad () (at Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs:231)
-System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
-System.Reflection.MethodBase:Invoke (object,object[])
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-(Filename: Library/PackageCache/com.microsoft.mixedreality.toolkit.foundation@22815388242e-1640011483865/Core/Inspectors/PropertyDrawers/SceneInfoUtils.cs Line: 313)
-
-[XR] [MROpenXR][Info   ][12:19:23.242630][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
-[XR] [MROpenXR][Info   ][12:19:23.243061][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
-[XR] [MROpenXR][Info   ][12:19:23.243104][tid:643c] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.0.0
-[XR] [MROpenXR][Info   ][12:19:23.243165][tid:643c] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.0.0 PartA_PrivTags=33554432
-Mono: successfully reloaded assembly
-- Completed reload, in  1.708 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1709ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1506ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (846ms)
+			SetupTypeCache (293ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (818ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (606ms)
-				ProcessInitializeOnLoadMethodAttributes (145ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (560ms)
+				ProcessInitializeOnLoadMethodAttributes (167ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(0) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.03 ms, found 10 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3743 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 143.1 MB.
-System memory in use after: 143.3 MB.
+Unloading 3801 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.6 MB.
+System memory in use after: 151.4 MB.
 
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 4275.
-Total: 3.488500 ms (FindLiveObjects: 0.362800 ms CreateObjectMapping: 0.283500 ms MarkObjects: 2.781500 ms  DeleteObjects: 0.059300 ms)
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 4374.
+Total: 3.866700 ms (FindLiveObjects: 0.488600 ms CreateObjectMapping: 0.115000 ms MarkObjects: 3.112000 ms  DeleteObjects: 0.149800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -566,15 +1808,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 40.687370 seconds.
-  path: Assets/Script/sceneObject.cs
-  artifactKey: Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/sceneObject.cs using Guid(a417c2e0bce6b2f4d89277bba4883bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b006236ad1a500f0c3d9966fca1224f3') in 0.005249 seconds 
-  Import took 0.012285 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
