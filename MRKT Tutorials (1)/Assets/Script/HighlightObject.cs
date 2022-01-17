@@ -8,7 +8,7 @@ public class HighlightObject : MonoBehaviour
 
     void Start()
     {
-        model.SetActive(false);
+        //model.SetActive(false);
     }
 
     public void highlightUpperPlate()
