@@ -138,6 +138,7 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: 0}
   - {fileID: -450303210868338995, guid: 958ab4bb876cd2b4184fdbe4ffa2d9a6, type: 2}
+  - {fileID: -5722288814794797386, guid: c3a9f10ad73b7ae43910768f8023bd96, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -591,7 +592,9 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    4: ARFOUNDATION_PRESENT
+    7: ARFOUNDATION_PRESENT
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
