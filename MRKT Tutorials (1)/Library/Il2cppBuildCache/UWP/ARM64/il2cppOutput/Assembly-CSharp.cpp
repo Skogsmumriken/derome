@@ -58,8 +58,6 @@ struct Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02;
 struct EventSystem_t5DC458FCD0355A74CDCCE79287B38B9C4278E39C;
 // UnityEngine.GameObject
 struct GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319;
-// HighlightObject
-struct HighlightObject_t1DD7A1DC1D8500BEEC9EB138AB5A352279A461EF;
 // Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSource
 struct IMixedRealityInputSource_t923212C7B71ADAD3E3C21B99009C9612530D3FE7;
 // Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSystem
@@ -76,6 +74,8 @@ struct MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A;
 struct PlaceObject_t446DF62A797BC9974CB1E2BB5875924492C6CB87;
 // System.String
 struct String_t;
+// ToggleObject
+struct ToggleObject_t3DC72CFEA0DF21E99EC937CF8FE14070EEC55D10;
 // UnityEngine.Transform
 struct Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1;
 // System.Void
@@ -1337,25 +1337,6 @@ public:
 };
 
 
-// HighlightObject
-struct HighlightObject_t1DD7A1DC1D8500BEEC9EB138AB5A352279A461EF  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
-{
-public:
-	// UnityEngine.GameObject HighlightObject::model
-	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___model_4;
-
-public:
-	inline static int32_t get_offset_of_model_4() { return static_cast<int32_t>(offsetof(HighlightObject_t1DD7A1DC1D8500BEEC9EB138AB5A352279A461EF, ___model_4)); }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_model_4() const { return ___model_4; }
-	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_model_4() { return &___model_4; }
-	inline void set_model_4(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
-	{
-		___model_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___model_4), (void*)value);
-	}
-};
-
-
 // Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData
 struct MixedRealityPointerEventData_t4171F6F9E8A858A2F4DD8B1CEE445E2CA81D7BFE  : public InputEventData_t60DF86D63F954673178E2461D27DB8150C84A017
 {
@@ -1404,6 +1385,25 @@ public:
 };
 
 
+// ToggleObject
+struct ToggleObject_t3DC72CFEA0DF21E99EC937CF8FE14070EEC55D10  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
+{
+public:
+	// UnityEngine.GameObject ToggleObject::obj
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___obj_4;
+
+public:
+	inline static int32_t get_offset_of_obj_4() { return static_cast<int32_t>(offsetof(ToggleObject_t3DC72CFEA0DF21E99EC937CF8FE14070EEC55D10, ___obj_4)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_obj_4() const { return ___obj_4; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_obj_4() { return &___obj_4; }
+	inline void set_obj_4(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___obj_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___obj_4), (void*)value);
+	}
+};
+
+
 // hideMesh
 struct hideMesh_t318A5369C6E35F51B9BE68AD5806F34E5E8A701B  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -1439,12 +1439,6 @@ public:
 // !!0 Microsoft.MixedReality.Toolkit.CoreServices::GetSpatialAwarenessSystemDataProvider<System.Object>()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * CoreServices_GetSpatialAwarenessSystemDataProvider_TisRuntimeObject_mD3A30387912E89BB802ACD7ABFBC50D026901256_gshared (const RuntimeMethod* method);
 
-// System.Boolean UnityEngine.GameObject::get_activeInHierarchy()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_mA3990AC5F61BB35283188E925C2BE7F7BF67734B (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.GameObject::SetActive(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86 (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, bool ___value0, const RuntimeMethod* method);
-// System.Void UnityEngine.MonoBehaviour::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * __this, const RuntimeMethod* method);
 // Microsoft.MixedReality.Toolkit.Input.IMixedRealityInputSystem Microsoft.MixedReality.Toolkit.CoreServices::get_InputSystem()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* CoreServices_get_InputSystem_mF1BC6A87C71157B2BFDF556079A9B189F3FCFDE9 (const RuntimeMethod* method);
 // Microsoft.MixedReality.Toolkit.Input.IMixedRealityPointer Microsoft.MixedReality.Toolkit.Input.MixedRealityPointerEventData::get_Pointer()
@@ -1461,6 +1455,12 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m57495F692C6CE
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Vector3_op_Addition_mEE4F672B923CCB184C39AABCA33443DB218E50E0_inline (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___a0, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___b1, const RuntimeMethod* method);
 // System.Void UnityEngine.Transform::set_position(UnityEngine.Vector3)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mB169E52D57EEAC1E3F22C5395968714E4F00AC91 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___value0, const RuntimeMethod* method);
+// System.Void UnityEngine.MonoBehaviour::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED (MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A * __this, const RuntimeMethod* method);
+// System.Boolean UnityEngine.GameObject::get_activeInHierarchy()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_mA3990AC5F61BB35283188E925C2BE7F7BF67734B (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.GameObject::SetActive(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86 (GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * __this, bool ___value0, const RuntimeMethod* method);
 // !!0 Microsoft.MixedReality.Toolkit.CoreServices::GetSpatialAwarenessSystemDataProvider<Microsoft.MixedReality.Toolkit.SpatialAwareness.IMixedRealitySpatialAwarenessMeshObserver>()
 inline RuntimeObject* CoreServices_GetSpatialAwarenessSystemDataProvider_TisIMixedRealitySpatialAwarenessMeshObserver_t4B11BE496015D0D9C431EDD908DB615E1223554C_mD0B905A3664D58975F2C467534096260BE6E5A79 (const RuntimeMethod* method)
 {
@@ -1471,78 +1471,6 @@ inline RuntimeObject* CoreServices_GetSpatialAwarenessSystemDataProvider_TisIMix
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void HighlightObject::Start()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HighlightObject_Start_mC878CAEEA6E4EE145DF53A657D030F1475B7DD25 (HighlightObject_t1DD7A1DC1D8500BEEC9EB138AB5A352279A461EF * __this, const RuntimeMethod* method)
-{
-	{
-		// }
-		return;
-	}
-}
-// System.Void HighlightObject::highlightUpperPlate()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HighlightObject_highlightUpperPlate_m1C7059816B1EB7859117765AE6C0FA621BD0B944 (HighlightObject_t1DD7A1DC1D8500BEEC9EB138AB5A352279A461EF * __this, const RuntimeMethod* method)
-{
-	{
-		// model.SetActive(!model.activeInHierarchy);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_model_4();
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_1 = __this->get_model_4();
-		NullCheck(L_1);
-		bool L_2;
-		L_2 = GameObject_get_activeInHierarchy_mA3990AC5F61BB35283188E925C2BE7F7BF67734B(L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_0, (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void HighlightObject::highlightLowerPlate()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HighlightObject_highlightLowerPlate_m3297577D6F602AF6549F4858A219ED611FA60292 (HighlightObject_t1DD7A1DC1D8500BEEC9EB138AB5A352279A461EF * __this, const RuntimeMethod* method)
-{
-	{
-		// model.SetActive(!model.activeInHierarchy);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_model_4();
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_1 = __this->get_model_4();
-		NullCheck(L_1);
-		bool L_2;
-		L_2 = GameObject_get_activeInHierarchy_mA3990AC5F61BB35283188E925C2BE7F7BF67734B(L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_0, (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void HighlightObject::highlightWood()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HighlightObject_highlightWood_mAFCF25002965206B3B23CB2131429074A61D6C5E (HighlightObject_t1DD7A1DC1D8500BEEC9EB138AB5A352279A461EF * __this, const RuntimeMethod* method)
-{
-	{
-		// model.SetActive(!model.activeInHierarchy);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_model_4();
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_1 = __this->get_model_4();
-		NullCheck(L_1);
-		bool L_2;
-		L_2 = GameObject_get_activeInHierarchy_mA3990AC5F61BB35283188E925C2BE7F7BF67734B(L_1, /*hidden argument*/NULL);
-		NullCheck(L_0);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_0, (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void HighlightObject::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HighlightObject__ctor_m461AAC6B4EE1594B61E56B876EF39169C6E13269 (HighlightObject_t1DD7A1DC1D8500BEEC9EB138AB5A352279A461EF * __this, const RuntimeMethod* method)
-{
-	{
-		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -1718,6 +1646,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaceObject_OnPointerExit_m58E6FF1F9B6B1
 }
 // System.Void PlaceObject::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PlaceObject__ctor_m44757D128D85AFEF773B114F790347B53B67DCA1 (PlaceObject_t446DF62A797BC9974CB1E2BB5875924492C6CB87 * __this, const RuntimeMethod* method)
+{
+	{
+		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void ToggleObject::toggleActive()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleObject_toggleActive_mD7F3A2ADC0555E49639333F2A9C885B3D0C4B094 (ToggleObject_t3DC72CFEA0DF21E99EC937CF8FE14070EEC55D10 * __this, const RuntimeMethod* method)
+{
+	{
+		// obj.SetActive(!obj.activeInHierarchy);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_0 = __this->get_obj_4();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_1 = __this->get_obj_4();
+		NullCheck(L_1);
+		bool L_2;
+		L_2 = GameObject_get_activeInHierarchy_mA3990AC5F61BB35283188E925C2BE7F7BF67734B(L_1, /*hidden argument*/NULL);
+		NullCheck(L_0);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_0, (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0), /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void ToggleObject::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ToggleObject__ctor_mEBE42B685DCF6F98F4177F365A5A8CBE6741003A (ToggleObject_t3DC72CFEA0DF21E99EC937CF8FE14070EEC55D10 * __this, const RuntimeMethod* method)
 {
 	{
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
