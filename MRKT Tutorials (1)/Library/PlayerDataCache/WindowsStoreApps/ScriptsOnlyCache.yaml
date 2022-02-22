@@ -140,8 +140,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEngine.SpatialTracking.dll:
-    - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.UI.CanvasScaler
@@ -335,8 +333,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7492}
     - Class: 114
       Script: {instanceID: 7564}
-    - Class: 114
-      Script: {instanceID: 7566}
     - Class: 114
       Script: {instanceID: 7602}
     - Class: 114

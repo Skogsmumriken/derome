@@ -20,6 +20,7 @@ public class sceneObject : MonoBehaviour
         Debug.Log(Camera.main.transform.forward);
         spawnPos.x = playerPos.x + Camera.main.transform.forward.x*1;
         spawnPos.z = playerPos.z + Camera.main.transform.forward.z*1;
+        spawnPos.y -= 0.179f;
         model.transform.position = spawnPos;
         model.SetActive(true);
     }
