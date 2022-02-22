@@ -15,6 +15,12 @@ public class sceneObject : MonoBehaviour
     
     public void showModel()
     {
+        Vector3 playerPos = Camera.main.transform.position;
+        Vector3 spawnPos = model.transform.position;
+        Debug.Log(Camera.main.transform.forward);
+        spawnPos.x = playerPos.x + Camera.main.transform.forward.x*1;
+        spawnPos.z = playerPos.z + Camera.main.transform.forward.z*1;
+        model.transform.position = spawnPos;
         model.SetActive(true);
     }
 }
