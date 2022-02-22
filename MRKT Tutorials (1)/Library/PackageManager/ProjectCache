@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637793982455478676
-    m_Hash: 3835012927
+      ticks: 637779603711029501
+    m_Hash: 846419315
   m_LockFileStatus:
     m_FilePath: C:/GitHub/derome/MRKT Tutorials (1)/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637793982455488673
-    m_Hash: 3288710622
+      ticks: 637779603711170269
+    m_Hash: 2390511797
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -26,7 +26,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.1
       source: 6
-      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.openxr@7928fa0e2997-1643801445492
+      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.openxr@7928fa0e2997-1642338268621
       assetPath: Packages/com.microsoft.mixedreality.openxr
       name: com.microsoft.mixedreality.openxr
       displayName: Mixed Reality OpenXR Plugin
@@ -109,7 +109,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@746200d5edf3-1643801445527
+      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.toolkit.foundation@746200d5edf3-1642338268757
       assetPath: Packages/com.microsoft.mixedreality.toolkit.foundation
       name: com.microsoft.mixedreality.toolkit.foundation
       displayName: Mixed Reality Toolkit Foundation
@@ -176,7 +176,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.7.3
       source: 6
-      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@74fb2e37ccc8-1643801445547
+      resolvedPath: C:\GitHub\derome\MRKT Tutorials (1)\Library\PackageCache\com.microsoft.mixedreality.toolkit.standardassets@74fb2e37ccc8-1642338268829
       assetPath: Packages/com.microsoft.mixedreality.toolkit.standardassets
       name: com.microsoft.mixedreality.toolkit.standardassets
       displayName: Mixed Reality Toolkit Standard Assets
@@ -291,9 +291,13 @@ m_PackageAssets:
         - 1.14.1
         - 1.14.4
         - 1.14.7
+        - 1.14.9
+        - 1.14.12
         - 1.15.1
         - 1.15.4
         - 1.15.7
+        - 1.15.9
+        - 1.15.12
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -313,9 +317,13 @@ m_PackageAssets:
         - 1.14.1
         - 1.14.4
         - 1.14.7
+        - 1.14.9
+        - 1.14.12
         - 1.15.1
         - 1.15.4
         - 1.15.7
+        - 1.15.9
+        - 1.15.12
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -421,6 +429,8 @@ m_PackageAssets:
         - 3.0.6
         - 3.0.7
         - 3.0.9
+        - 3.0.10
+        - 3.0.12
         compatible:
         - 1.0.2
         - 1.0.6
@@ -448,6 +458,8 @@ m_PackageAssets:
         - 3.0.6
         - 3.0.7
         - 3.0.9
+        - 3.0.10
+        - 3.0.12
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -520,6 +532,7 @@ m_PackageAssets:
         - 2.0.9
         - 2.0.11
         - 2.0.12
+        - 2.0.14
         compatible:
         - 1.0.2
         - 1.0.3
@@ -537,7 +550,8 @@ m_PackageAssets:
         - 2.0.9
         - 2.0.11
         - 2.0.12
-        verified: 2.0.12
+        - 2.0.14
+        verified: 2.0.14
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -834,9 +848,13 @@ m_PackageAssets:
         - 1.1.27
         - 1.1.29
         - 1.1.30
+        - 2.0.1-pre.12
+        - 2.0.1-pre.18
         compatible:
         - 1.1.29
         - 1.1.30
+        - 2.0.1-pre.12
+        - 2.0.1-pre.18
         verified: 1.1.30
       dependencies:
       - name: com.unity.ext.nunit
@@ -1126,7 +1144,9 @@ m_PackageAssets:
         - 1.6.1
         - 1.6.2
         - 1.6.3
+        - 1.6.4
         - 1.7.0-pre.1
+        - 1.7.0-pre.2
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -1150,7 +1170,9 @@ m_PackageAssets:
         - 1.6.1
         - 1.6.2
         - 1.6.3
+        - 1.6.4
         - 1.7.0-pre.1
+        - 1.7.0-pre.2
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -3245,6 +3267,7 @@ m_PackageAssets:
         - 1.1.0-preview.3
         - 1.1.1
         - 1.2.0
+        - 1.3.0
         compatible:
         - 0.1.2-preview
         - 0.2.0-preview
@@ -3277,6 +3300,7 @@ m_PackageAssets:
         - 1.1.0-preview.3
         - 1.1.1
         - 1.2.0
+        - 1.3.0
         verified: 1.0.2
       dependencies: []
       resolvedDependencies: []
@@ -3623,6 +3647,7 @@ m_PackageAssets:
         - 2.1.14
         - 2.1.16
         - 2.1.18
+        - 2.1.19
         - 2.2.0-preview.2
         - 2.2.0-preview.3
         - 2.2.0-preview.6
@@ -3664,6 +3689,7 @@ m_PackageAssets:
         - 4.1.3
         - 4.1.5
         - 4.1.7
+        - 4.1.9
         - 4.2.0-pre.2
         - 4.2.0-pre.3
         - 4.2.0-pre.4
@@ -3675,8 +3701,10 @@ m_PackageAssets:
         - 4.2.0-pre.12
         - 4.2.0
         - 4.2.1
+        - 4.2.2
         - 5.0.0-pre.5
         - 5.0.0-pre.6
+        - 5.0.0-pre.7
         compatible:
         - 1.0.0-preview.12
         - 1.0.0-preview.13
@@ -3702,6 +3730,7 @@ m_PackageAssets:
         - 2.1.14
         - 2.1.16
         - 2.1.18
+        - 2.1.19
         - 2.2.0-preview.2
         - 2.2.0-preview.3
         - 2.2.0-preview.6
@@ -3743,6 +3772,7 @@ m_PackageAssets:
         - 4.1.3
         - 4.1.5
         - 4.1.7
+        - 4.1.9
         - 4.2.0-pre.2
         - 4.2.0-pre.3
         - 4.2.0-pre.4
@@ -3754,7 +3784,8 @@ m_PackageAssets:
         - 4.2.0-pre.12
         - 4.2.0
         - 4.2.1
-        verified: 4.1.7
+        - 4.2.2
+        verified: 4.1.9
       dependencies:
       - name: com.unity.xr.arsubsystems
         version: 4.1.7
@@ -3878,6 +3909,7 @@ m_PackageAssets:
         - 4.1.0-pre.2
         - 4.1.0
         - 4.2.0
+        - 4.2.1
         compatible:
         - 4.0.1
         - 4.0.3
@@ -3888,6 +3920,7 @@ m_PackageAssets:
         - 4.1.0-pre.2
         - 4.1.0
         - 4.2.0
+        - 4.2.1
         verified: 4.0.7
       dependencies:
       - name: com.unity.modules.subsystems
@@ -3974,6 +4007,7 @@ m_PackageAssets:
         - 2.1.14
         - 2.1.16
         - 2.1.18
+        - 2.1.19
         - 2.2.0-preview.2
         - 2.2.0-preview.3
         - 2.2.0-preview.6
@@ -4026,8 +4060,10 @@ m_PackageAssets:
         - 4.2.0-pre.12
         - 4.2.0
         - 4.2.1
+        - 4.2.2
         - 5.0.0-pre.5
         - 5.0.0-pre.6
+        - 5.0.0-pre.7
         compatible:
         - 4.1.7
         - 4.2.0-pre.2
@@ -4041,6 +4077,7 @@ m_PackageAssets:
         - 4.2.0-pre.12
         - 4.2.0
         - 4.2.1
+        - 4.2.2
         verified: 4.1.7
       dependencies:
       - name: com.unity.subsystemregistration
@@ -4154,7 +4191,7 @@ m_PackageAssets:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637793982454918696
+        ticks: 637779350686206004
       m_Hash: 1401374687
     - m_FilePath: C:\GitHub\derome\MRKT Tutorials (1)\Packages\MixedReality\com.microsoft.mixedreality.toolkit.foundation-2.7.3.tgz/package.json
       m_PathExists: 0
@@ -4168,7 +4205,7 @@ m_PackageAssets:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637793982455268709
+        ticks: 637779350687567545
       m_Hash: 3313935279
     - m_FilePath: C:\GitHub\derome\MRKT Tutorials (1)\Packages\MixedReality\com.microsoft.mixedreality.toolkit.standardassets-2.7.3.tgz/package.json
       m_PathExists: 0
@@ -4182,7 +4219,7 @@ m_PackageAssets:
       m_ContentTrackingEnabled: 1
       m_ModificationDate:
         serializedVersion: 2
-        ticks: 637793982455468676
+        ticks: 637779350688286859
       m_Hash: 418450698
 m_ProjectPath: C:/GitHub/derome/MRKT Tutorials (1)/Packages
 m_EditorVersion: 2020.3.18f1 (a7d1c678663c)
