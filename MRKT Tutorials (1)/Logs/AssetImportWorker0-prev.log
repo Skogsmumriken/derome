@@ -1,0 +1,2095 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19043.1526; Version 2009; 64bit' Language: 'en' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/GitHub/derome/MRKT Tutorials (1)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65140
+Successfully changed project path to: C:/GitHub/derome/MRKT Tutorials (1)
+C:/GitHub/derome/MRKT Tutorials (1)
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.57 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/GitHub/derome/MRKT Tutorials (1)/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002036 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 59.33 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.972 seconds
+Domain Reload Profiling:
+	ReloadAssembly (972ms)
+		BeginReloadAssembly (45ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (392ms)
+			LoadAssemblies (44ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (128ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007404 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028CC48C6E80 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8516150 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC44E4240 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4BB8030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4520AA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8C2A830 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9978020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC990D720 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4520AA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8D7A020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4EDC4E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC467C030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC433AB70 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9BC9220 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC851FBC0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7EE74980 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8C2A830 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC87F5900 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC45BF420 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8F89420 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4E9F8C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC467FE60 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC47A7040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8FBA010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC47A35B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4915030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7ED136F0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC90F8C10 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9353CA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC88F5A00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8CB7430 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9BC9220 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4915030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC99DC770 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9D7F070 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9E12A50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC85180E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4B84BA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4C88010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC894BD70 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9214F70 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8AEF7B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC474D470 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9D7F070 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 60.89 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[XR] Error loading subsystem: Display (1) (header mismatch?)
+[XR] [MROpenXR][Info   ][12:38:27.301612][tid:3bdc] MeshProvider_RegisterLifecycleProvider
+[XR] [MROpenXR][Info   ][12:38:27.301714][tid:3bdc] InputProvider_RegisterLifeCycleProvider
+[XR] [MROpenXR][Info   ][12:38:27.302354][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][12:38:27.302842][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][12:38:27.302884][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][12:38:27.302945][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  2.017 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2017ms)
+		BeginReloadAssembly (122ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (1840ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1276ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (719ms)
+				ProcessInitializeOnLoadMethodAttributes (380ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.2 MB.
+System memory in use after: 184.7 MB.
+
+Unloading 1770 unused Assets to reduce memory usage. Loaded Objects now: 4367.
+Total: 5.785700 ms (FindLiveObjects: 0.556200 ms CreateObjectMapping: 0.312000 ms MarkObjects: 2.957300 ms  DeleteObjects: 1.958400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Packages/com.microsoft.mixedreality.toolkit.foundation/package.json
+  artifactKey: Guid(07675bcd31d98194486b2fea188bcc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.foundation/package.json using Guid(07675bcd31d98194486b2fea188bcc6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af955ff9b76574fa09154be410be969') in 0.035423 seconds 
+  Import took 0.041076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.364352 seconds.
+  path: Packages/com.microsoft.mixedreality.openxr/package.json
+  artifactKey: Guid(1adea270d8ae3ec428b7a7cc41633514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.openxr/package.json using Guid(1adea270d8ae3ec428b7a7cc41633514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e96f215f8ea9e22d07f578742f1e375') in 0.006780 seconds 
+  Import took 0.011730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.442621 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials
+  artifactKey: Guid(345c55d33e334e57aecb29e986efa92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.standardassets/Materials using Guid(345c55d33e334e57aecb29e986efa92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab19958fd3675affbe11ce0ebb174ed') in 0.007174 seconds 
+  Import took 0.012364 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007842 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028CC48C6E80 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE0E8CF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC45240B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC468A800 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7EE17990 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC851B4C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8F9D220 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8E85C50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7EE17990 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8D7A020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD25A2EF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC1A6620 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEFEA190 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE48ACC0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFFE1400 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7EE71DD0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE3B8040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4FBD9C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC46EB020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCDEA2010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC45240B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC3E97C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE857010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8FBA010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD25A2EF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCF40080 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7ED12750 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC451EA50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4FC1BD0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9C220C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4808420 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD23A9D50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCF40080 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1B59BF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1E7AC30 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFBBF4B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFFE0590 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD252EE10 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD23A9D50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4FC1BD0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC945CF80 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEE068B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF8C411D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9D7F070 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[XR] [MROpenXR][Info   ][13:08:22.517060][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][13:08:22.517589][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][13:08:22.517648][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][13:08:22.517717][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.798 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1798ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1626ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (347ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (973ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (612ms)
+				ProcessInitializeOnLoadMethodAttributes (245ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.14 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.7 MB.
+System memory in use after: 176.3 MB.
+
+Unloading 1311 unused Assets to reduce memory usage. Loaded Objects now: 4370.
+Total: 6.248300 ms (FindLiveObjects: 0.608400 ms CreateObjectMapping: 0.413100 ms MarkObjects: 3.300800 ms  DeleteObjects: 1.924800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007468 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028CC9B58A50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE0E5CB0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCBFA6030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC99DA030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4FB7ED0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC851B4C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE3B8040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD267D2B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4FB7ED0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8D7A020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD0364B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE3B8040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD267D2B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE3494C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD38FC360 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7EE71DD0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCEDA060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9CF6030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD567030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC547E50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE5EB020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA1904F0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD567030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC658020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD0364B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD567030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD313BE10 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF4EC220 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9F53030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8F9D220 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD4A93E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD24E3DD0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD567030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2D6D880 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2A71330 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2DEA330 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD38F7660 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3003120 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA202030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD4AEBF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA215680 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEE055F0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF4EC220 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD7BB800 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[XR] [MROpenXR][Info   ][13:09:20.848106][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][13:09:20.848629][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][13:09:20.848687][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][13:09:20.848751][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.789 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1789ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1628ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (983ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (623ms)
+				ProcessInitializeOnLoadMethodAttributes (236ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.8 MB.
+System memory in use after: 176.4 MB.
+
+Unloading 1311 unused Assets to reduce memory usage. Loaded Objects now: 4373.
+Total: 5.612900 ms (FindLiveObjects: 0.463500 ms CreateObjectMapping: 0.389700 ms MarkObjects: 2.904700 ms  DeleteObjects: 1.853300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008239 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028CD579E560 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE0E8CF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCBFA6030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF4E2010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9353A00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC851B4C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD21DD040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD41A9CC0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9353A00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC3A5020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4EDC4E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD21DD040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD41A8BA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC67BCB0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD53D29C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7EE71DD0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4D03700 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4F95010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD25C8620 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8DCE020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF64C010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9468D20 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD567030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCDA9F030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC7CE600 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD567030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3138F30 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD41DA0A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCE788E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCDEB7620 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF64C010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4551C30 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD567030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD55FDB80 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD56D4FB0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD47EB630 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD53D41D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD5440B20 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD53CD780 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9353A00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC9FF9F0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEE04650 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD53CD780 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD574B950 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[XR] [MROpenXR][Info   ][13:09:56.841904][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][13:09:56.842508][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][13:09:56.842586][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][13:09:56.842659][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1811ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1652ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (351ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (985ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (617ms)
+				ProcessInitializeOnLoadMethodAttributes (253ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.9 MB.
+System memory in use after: 176.4 MB.
+
+Unloading 1311 unused Assets to reduce memory usage. Loaded Objects now: 4376.
+Total: 5.854100 ms (FindLiveObjects: 0.426500 ms CreateObjectMapping: 0.380400 ms MarkObjects: 3.156100 ms  DeleteObjects: 1.889600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1920.789198 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910ae862f255a6159b35b23a955cc78f') in 0.118736 seconds 
+  Import took 0.124192 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007880 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028CD38B2AA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA315BCC0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF87ACA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF747E90 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF9207C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC695B30 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF7523D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEFC4A30 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD5752F90 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8AAF010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA33872B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD574F650 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEFC7D90 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFA98BE0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD53D2020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7EE6E390 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE54E020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1E80AA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC44F030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC57C040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4747020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA7FCCC0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE857010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCE94020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD842040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4F9E100 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3139700 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD41DE4C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA1C900E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF09C060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCED8040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4C88010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4F9E100 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD55FD060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1CD8570 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2DE4630 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD53D2020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD54406D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4C88010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCE7BC60 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEB8E240 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCDD2FD00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA812F70 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1CD65E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[XR] [MROpenXR][Info   ][13:10:43.129718][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][13:10:43.130180][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][13:10:43.130235][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][13:10:43.130347][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.810 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1810ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1651ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (340ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (987ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (627ms)
+				ProcessInitializeOnLoadMethodAttributes (242ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.4 MB.
+System memory in use after: 179.9 MB.
+
+Unloading 1311 unused Assets to reduce memory usage. Loaded Objects now: 4420.
+Total: 5.783700 ms (FindLiveObjects: 0.461700 ms CreateObjectMapping: 0.410300 ms MarkObjects: 2.989500 ms  DeleteObjects: 1.921000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007801 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028CCF807280 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA31665A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF87ACA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2553040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3D2D020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC695B30 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF7523D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3C93A80 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3D2D020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8AAF010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFA94220 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3AAE080 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3C920D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC3EAE80 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3A99ED0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7EE73AF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE54E020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4DB9030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3B70300 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC57C040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4747020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEB8AF10 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD567030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCE94020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD847F50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD567030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3135880 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD41DE4C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1C805E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3B7EF50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9902010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEF47200 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD567030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFE61310 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD01F67E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD47F0D60 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3A99ED0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA886A60 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEF47200 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC922B020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4687200 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEE06BD0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA812F70 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD01EFC90 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[XR] [MROpenXR][Info   ][13:11:37.697947][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][13:11:37.698484][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][13:11:37.698546][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][13:11:37.698614][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1821ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1662ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (991ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (628ms)
+				ProcessInitializeOnLoadMethodAttributes (240ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.89 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.4 MB.
+System memory in use after: 179.9 MB.
+
+Unloading 1311 unused Assets to reduce memory usage. Loaded Objects now: 4423.
+Total: 5.698500 ms (FindLiveObjects: 0.482100 ms CreateObjectMapping: 0.349000 ms MarkObjects: 3.107200 ms  DeleteObjects: 1.758900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.42 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.4 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4423.
+Total: 3.907800 ms (FindLiveObjects: 0.340300 ms CreateObjectMapping: 0.197600 ms MarkObjects: 3.352100 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.56 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.4 MB.
+System memory in use after: 100.7 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4423.
+Total: 4.129700 ms (FindLiveObjects: 0.382700 ms CreateObjectMapping: 0.205200 ms MarkObjects: 3.522300 ms  DeleteObjects: 0.018500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007920 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028EA4787750 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA7A5D00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF87ACA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2553040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFB48F00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3B727B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF86B7A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD5558AF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFB48F00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC470D010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD046E400 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF86B7A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD555D800 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8EE54D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3A4C890 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7EE73AF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4BDE9C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4F95010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA5E8EE0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC57C040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8887010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1F46FB0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA5E8EE0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCE94020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCED8C530 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA5E8EE0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFB3E630 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD41E6D00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1C69370 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF86B7A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8887010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD4C5A060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA723C70 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC304270 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA4D5B250 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA4D2E900 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3A4DBD0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA42D4040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFAA6D90 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFB48F00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9467E80 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD39576B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFAA6D90 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA4D5B8A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[XR] [MROpenXR][Info   ][13:42:15.971314][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][13:42:15.971908][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][13:42:15.972141][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][13:42:15.972360][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.848 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1848ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1683ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (1013ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (639ms)
+				ProcessInitializeOnLoadMethodAttributes (247ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.15 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.4 MB.
+System memory in use after: 180.0 MB.
+
+Unloading 1311 unused Assets to reduce memory usage. Loaded Objects now: 4426.
+Total: 6.353000 ms (FindLiveObjects: 0.540300 ms CreateObjectMapping: 0.384600 ms MarkObjects: 3.537600 ms  DeleteObjects: 1.889200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007383 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028EA6398830 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA5C39910 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFC62CB0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2553040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4C88010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4BDE9C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9AD9060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA51F54A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4C88010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC470D010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD48A5060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9AD9060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA51F9090 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFAB0BC0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA58C9F50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA5F90070 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4FBD9C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA827010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF8C848E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC57C040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8887010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEB8D3A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF8C848E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCE94020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCED8CFC0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF8C848E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFB40570 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD41E6D00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1EE19A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4FBD9C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF87ACA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC861E070 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF8C848E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA63B0960 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA6747710 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA4D34600 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA58CA8F0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA48645C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC861E070 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC861E070 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC946CEF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3957390 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD4A7B9E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA6744AE0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[XR] [MROpenXR][Info   ][13:42:41.536105][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][13:42:41.536623][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][13:42:41.536677][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][13:42:41.536738][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.836 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1836ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1673ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (975ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (104ms)
+				ProcessInitializeOnLoadAttributes (616ms)
+				ProcessInitializeOnLoadMethodAttributes (242ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.90 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.5 MB.
+System memory in use after: 180.0 MB.
+
+Unloading 1311 unused Assets to reduce memory usage. Loaded Objects now: 4429.
+Total: 5.928300 ms (FindLiveObjects: 0.495400 ms CreateObjectMapping: 0.421400 ms MarkObjects: 3.128700 ms  DeleteObjects: 1.881600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007479 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028CD5798B10 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA7A3A970 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFC62CB0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF747E90 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1F17B10 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4BDE9C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC636010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEFE6E30 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1F17B10 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFB01010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD48A5060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC636010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEFEA190 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC66F8C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA6FD9740 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA5F90F00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA3169040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF832980 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2B7E030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8DCE020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC531090 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA3694F10 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE857010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCE94020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD8489E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4F9E100 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA643EF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD41E28E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF75BED0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9465010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA2BF7FF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4796200 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEE629B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC68BDD0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFCA2E30 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFBBE910 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA6FD9740 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA2BD8430 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4796200 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA30A7B20 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC946F380 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEE05F50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA812F70 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFCA4120 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[XR] [MROpenXR][Info   ][13:43:32.316632][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][13:43:32.317331][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][13:43:32.317414][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][13:43:32.317482][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.818 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1818ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1655ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (337ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (967ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (613ms)
+				ProcessInitializeOnLoadMethodAttributes (235ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.86 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.5 MB.
+System memory in use after: 180.0 MB.
+
+Unloading 1311 unused Assets to reduce memory usage. Loaded Objects now: 4432.
+Total: 5.866200 ms (FindLiveObjects: 0.562600 ms CreateObjectMapping: 0.358300 ms MarkObjects: 3.062600 ms  DeleteObjects: 1.881400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007470 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028EA7D3F5C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA5C33890 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9FE8020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF747E90 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9214080 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD574E5A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF7523D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD555BE50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9906B40 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8AAF010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFC26B50 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD38A7030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD5555790 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD4F444C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD00E8730 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA5F9A0A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEDAD060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA827010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1E84AB0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC901E010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD53D5170 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD040130 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA5F957D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCE94020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8F40060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFC41EA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFB424B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD41DE4C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1EFCD80 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE552820 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD34A7010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4796200 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF82CF20 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC6880A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA64D8FC0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA4D291D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD00E60B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA40A1B60 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4796200 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD492EE00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD4D08500 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3958650 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD55ED830 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA64D3DB0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[XR] [MROpenXR][Info   ][13:43:46.832695][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][13:43:46.833273][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][13:43:46.833326][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][13:43:46.833422][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.855 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1855ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1694ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (338ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (991ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (624ms)
+				ProcessInitializeOnLoadMethodAttributes (241ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.5 MB.
+System memory in use after: 180.0 MB.
+
+Unloading 1311 unused Assets to reduce memory usage. Loaded Objects now: 4435.
+Total: 5.893100 ms (FindLiveObjects: 0.544700 ms CreateObjectMapping: 0.351800 ms MarkObjects: 3.005100 ms  DeleteObjects: 1.990500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.63 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.5 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 4435.
+Total: 4.510300 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.206300 ms MarkObjects: 3.914200 ms  DeleteObjects: 0.021700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008364 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028CD3ADEBA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA668A0B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD44F73B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF747E90 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4FC19D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD574E5A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF7523D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA3A73290 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4FC19D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8D7A020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2740530 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD38A7030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA3A77FA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA29046C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA58C0EF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA5F9E970 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD376E030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4DB9030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2BEE010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC901E010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC90A0020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8C42DB0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA5F9E970 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCE94020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD840B20 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2BEE010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7ED136F0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD41E28E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA261E2E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC9465010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD345F090 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD395B030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2BEE010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA2C00BA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA3D826D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC1954C0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA58C2BD0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA5D22A00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD395B030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCA64C040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCD03A970 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEE04650 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CF8C411D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA3D826D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[XR] [MROpenXR][Info   ][14:19:42.016928][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][14:19:42.017439][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][14:19:42.017531][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][14:19:42.017604][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.883 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1883ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1716ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (350ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (990ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (629ms)
+				ProcessInitializeOnLoadMethodAttributes (243ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.96 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.5 MB.
+System memory in use after: 180.1 MB.
+
+Unloading 1311 unused Assets to reduce memory usage. Loaded Objects now: 4438.
+Total: 5.970400 ms (FindLiveObjects: 0.495300 ms CreateObjectMapping: 0.445200 ms MarkObjects: 3.163300 ms  DeleteObjects: 1.865400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007585 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000028CD1A1A540 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1B558A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD44F73B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCF747E90 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA1D03850 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.WindowsMixedReality.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD235CDB0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC91F2060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputAnimation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA42FE480 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.TeleportSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA1D03850 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA510B520 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFE3A4B0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSystem.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA50F8070 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SceneSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA4303190 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.Oculus.Handtracking.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1EC4580 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2701C10 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7EE74980 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC49CE030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC4DB9030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD3777040 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC901E010 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.Inspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD53D5170 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Interactive.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFFA2E40 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.LeapMotion.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028E7EE766A0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Shared.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCCE94020 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8F47490 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.SpatialAwarenessSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEED8100 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsVoiceInput.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD4A89060 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.CameraSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD41E06D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA28FB070 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.InputSimulation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCE552820 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.BuildAndDeploy.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2D06030 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.OpenXR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC3C3080 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.XRSDK.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEED8100 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.ObjectMeshObserver.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFC5B7D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.WindowsMixedReality.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1A0AD70 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ClassExtensions.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFF0A7E0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD2705AA0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Providers.UnityAR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA5DD0DB0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\MRTK.OpenXR.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCC3C3080 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Services.DiagnosticsSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028EA2C2EDF0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Async.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CC8C41070 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Gltf.Importers.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCEE052D0 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.SDK.Experimental.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CCFEF6950 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.Editor.ServiceInspectors.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000028CD1A0CD00 doesn't match image C:\GitHub\derome\MRKT Tutorials (1)\Library\ScriptAssemblies\Microsoft.MixedReality.Toolkit.StandardAssets.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Error when attempting to update scene info fields. Scene info data may be stale.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:RefreshSceneInfoFieldsInScriptableObjects ()
+Microsoft.MixedReality.Toolkit.Editor.SceneInfoUtils:InitializeOnLoad ()
+System.Reflection.MonoMethod:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[XR] [MROpenXR][Info   ][14:20:44.121884][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment unityVersion=2020.3.18f1
+[XR] [MROpenXR][Info   ][14:20:44.122459][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment openXRPluginVersion=1.3.1
+[XR] [MROpenXR][Info   ][14:20:44.122522][tid:3bdc] MicrosoftOpenXRPlugin_SetPluginEnvironment mrOpenXRPluginVersion=1.2.1.0
+[XR] [MROpenXR][Info   ][14:20:44.122587][tid:3bdc] OnPluginStarted UnityVersion=2020.3.18f1 OpenXRPluginVersion=1.3.1 MROpenXRPluginVersion=1.2.1.0 PartA_PrivTags=33554432
+Mono: successfully reloaded assembly
+- Completed reload, in  1.887 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1888ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1724ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (341ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (998ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (634ms)
+				ProcessInitializeOnLoadMethodAttributes (245ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(21) subTarget(3) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.05 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3829 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 180.5 MB.
+System memory in use after: 180.1 MB.
+
+Unloading 1311 unused Assets to reduce memory usage. Loaded Objects now: 4441.
+Total: 6.232000 ms (FindLiveObjects: 0.505400 ms CreateObjectMapping: 0.391300 ms MarkObjects: 3.523200 ms  DeleteObjects: 1.810700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
